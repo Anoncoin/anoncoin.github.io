@@ -64,7 +64,7 @@
                         </li>
                           
                         <li>
-                            <a href="/Roadmap/">Roadmap</a>
+                            <a href="https://github.com/Anoncoin/project/tree/master/roadmap">Roadmap</a>
                         </li>
                           
                         <li>
@@ -91,10 +91,6 @@
                           
                         <li>
                             <a href="/Download/#linuxdownload">Linux</a>
-                        </li>
-                          
-                        <li>
-                            <a href="/Download/#mobiledownload">Mobile</a>
                         </li>
                          
                     </ul>
@@ -138,7 +134,7 @@
                         </li>
                           
                         <li>
-                            <a href="/Block_chain_explorers/">Block chain explorers</a>
+                            <a href="http://anoncash.net/chain/Anoncoin">Blockchain explorer</a>
                         </li>
                           
                         <li>
@@ -208,30 +204,7 @@
 
     
 
-    <p>You can mine <a href="/About_Anoncoin/">Anoncoin</a> on your computer by using <a href="/Scrypt/">scrypt</a> ASICs. It is no longer profitable to mine with either a GPU or CPU.</p>
-
-<h2 id="mining-at-a-p2pool-pool">Mining at a P2Pool pool</h2>
-
-<p>Instructions on how to mine at a P2Pool can be found here: <a href="https://bitcointalk.org/index.php?topic=153232.0"><a href="https://bitcointalk.org/index.php?topic=153232.0">https://bitcointalk.org/index.php?topic=153232.0</a></a> and <a href="https://bitcointalk.org/index.php?topic=457574.0"><a href="https://bitcointalk.org/index.php?topic=457574.0">https://bitcointalk.org/index.php?topic=457574.0</a></a></p>
-
-<p>If you would like to set up your own pool, here is the code! <a href="https://github.com/K1773R/p2pool"><a href="https://github.com/K1773R/p2pool">https://github.com/K1773R/p2pool</a></a></p>
-
-<h2 id="mining-with-scrypt-asics">Mining with Scrypt ASICS</h2>
-
-<p>Change your anoncoin.conf file to include the following:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>stfu=1
-rpcallowip=192.168.1.*
-rpcport=9376
-rpcuser=******yourusername******
-rpcpassword=******yoursecretpassphrase******
-server=1
-daemon=1
-gen=0
-listen=1
-</code></pre></div></div>
-
-<p><code class="highlighter-rouge">rpcuser</code> and <code class="highlighter-rouge">rpcpassword</code> can be anything of your choosing, and <code class="highlighter-rouge">rpcallowip</code> is the IP address of your ASIC. Open your wallet on the computer (either with <code class="highlighter-rouge">anoncoind</code> or <code class="highlighter-rouge">anoncoin-qt</code>), and point the ASIC to that computer IP address and port 9376 using your rpc username and password.</p>
+    <p>From block 871111 Anoncoin uses GOST R 34.11-2012 hashing algorithm, more information about this in <a href="https://github.com/Anoncoin/anoncoin/releases/tag/v0.9.7-gost">our release notes for version 0.9.7.</a></p>
 
 <h2 id="see-also">See also</h2>
 
@@ -261,12 +234,6 @@ listen=1
                     <ul class="list-inline">
                         
                         <li>
-                            <a href="https://join.slack.com/t/anoncoin/shared_invite/enQtMjcxMzUxMjk5ODYwLTU0OTJhNmIxNzYyY2JiMzUxOGZhMjYzNmQ3YmViNWM1OWIxZGNlMGY0Zjg1NzdhMDAyZmRiYTFhNTM1OWZiYTU" class="btn-social btn-outline">
-                                <i class="fa fa-fw fa-slack"></i>
-                            </a>
-                        </li>
-                        
-                        <li>
                             <a href="https://twitter.com/anoncoinproject" class="btn-social btn-outline">
                                 <i class="fa fa-fw fa-twitter"></i>
                             </a>
@@ -281,6 +248,12 @@ listen=1
                         <li>
                             <a href="https://www.reddit.com/r/Anoncoin/" class="btn-social btn-outline">
                                 <i class="fa fa-fw fa-reddit"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCwKSmUNcoRrBwm-kdsl1n2w" class="btn-social btn-outline">
+                                <i class="fa fa-fw fa-youtube"></i>
                             </a>
                         </li>
                         
@@ -308,7 +281,7 @@ listen=1
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Anoncoin 2017
+                    Copyright &copy; Anoncoin 2018
                 </div>
             </div>
         </div>
