@@ -29,10 +29,10 @@
 <loc>https://anoncoin.net/Anoncoin-cli_commands/</loc>
 </url>
 <url>
-<loc>https://anoncoin.net/Anoncoin_address/</loc>
+<loc>https://anoncoin.net/Anoncoin_I2P_conf/</loc>
 </url>
 <url>
-<loc>https://anoncoin.net/Anoncoin_I2P_conf/</loc>
+<loc>https://anoncoin.net/Anoncoin_address/</loc>
 </url>
 <url>
 <loc>https://anoncoin.net/Anoncoin_clearnet_conf/</loc>
@@ -164,6 +164,9 @@
 <loc>https://anoncoin.net/Network_ID/</loc>
 </url>
 <url>
+<loc>https://anoncoin.net/Old_pages/</loc>
+</url>
+<url>
 <loc>https://anoncoin.net/Places_that_accept_Anoncoin/</loc>
 </url>
 <url>
@@ -195,8 +198,5 @@
 </url>
 <url>
 <loc>https://anoncoin.net/</loc>
-</url>
-<url>
-<loc>https://anoncoin.net/Old_pages/</loc>
 </url>
 </urlset>
